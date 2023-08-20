@@ -34,7 +34,7 @@ Password: password
 
 ## Now Lets Start with the attack.
 
-Now in burpsuite, click on ``Intercept is off`` to turn the intercept is on.
+Now in burpsuite, click on ``Intercept is off`` to turn the intercept on.
 
 Try entering the username ``admin`` and password ``pass`` and login.
 
