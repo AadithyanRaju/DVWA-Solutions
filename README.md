@@ -9,3 +9,7 @@ Damn Vulnerable Web Application is damn vulnerable!  **Do not upload it to your 
 We do not take responsibility for the way in which any one uses this application (DVWA). We have made the purposes of the application clear and it should not be used maliciously. We have given warnings and taken measures to prevent users from installing DVWA on to live web servers. If your web server is compromised via an installation of DVWA, it is not our responsibility, it is the responsibility of the person/s who uploaded and installed it.
 
 Also, we wont be responsible for how a person use the resources from this repository. It will be the responsibility of the person who uses the resouces from here.
+
+## Solution
+
+### BruteForce
