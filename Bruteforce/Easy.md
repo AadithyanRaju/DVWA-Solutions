@@ -83,3 +83,11 @@ We can see changes in the row 2  in length and incorrect.
 So we searched for incorrect passwords so all incorrect passwords are marked 1
 
 the the password for admin user is ``password``.
+
+Simmilarly there are few other users in the database their passwords are 
+
+* admin:password
+* 1337:charley
+* gordonb:abc123
+* Pablo:letmein
+* Smithy:password
