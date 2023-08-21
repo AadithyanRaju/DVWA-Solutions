@@ -13,3 +13,7 @@ Also, we wont be responsible for how a person use the resources from this reposi
 ## Solution
 
 ### BruteForce
+
+* [Low](./Bruteforce/Low.md)
+* [Medium](./Bruteforce/Medium.md)
+* [Hard](./Bruteforce/Hard.md)

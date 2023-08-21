@@ -1,10 +1,10 @@
-# DVWA - Bruteforce - Easy
+# DVWA - Bruteforce - Medium
 
 ## Set Up Burp Suite
 
 Start a new temp project in Burp Suite.
 
-We will be using Burp Suite Browser. 
+We will be using Burp Suite Browser.
 
 1. Click on Proxy.
 2. Under Proxy click Intercept.
@@ -26,8 +26,8 @@ Password: password
 ## Set up for this challenge
 
 1. Go to DVWA Security.![1692543564250](image/Easy/1692543564250.png)
-2. Now Select low in the drop down menu and submit. You get the following alert. ![1692543672275](image/Easy/1692543672275.png)
-3. For confirmation on bottom left side you can check. ![1692543929511](image/Easy/1692543929511.png)
+2. Now Select medium in the drop down menu and submit. You get the following alert. ![1692629593010](image/Medium/1692629593010.png)
+3. For confirmation on bottom left side you can check. ![1692629630565](image/Medium/1692629630565.png)
 4. Now click on Brute Force.
 
 ![1692543990678](image/Easy/1692543990678.png)
@@ -38,13 +38,13 @@ Now in burpsuite, click on ``Intercept is off`` to turn the intercept on.
 
 Try entering the username ``admin`` and password ``pass`` and login.
 
-![1692544346502](image/Easy/1692544346502.png)
+![1692629703676](image/Medium/1692629703676.png)
 
 Now lets send this information to Intruder.
 
 Click on Action then Send to Intruder or Press ``Ctrl + i``.
 
-![1692544492961](image/Easy/1692544492961.png)
+![1692629755235](image/Medium/1692629755235.png)
 
 select pass and click on add.
 
@@ -76,7 +76,7 @@ Now start the attack.
 
 ## Results
 
-![1692547330679](image/Easy/1692547330679.png)
+![1692629872251](image/Medium/1692629872251.png)
 
 We can see changes in the row 2  in length and incorrect.
 
@@ -84,7 +84,9 @@ So we searched for incorrect passwords so all incorrect passwords are marked 1
 
 the the password for admin user is ``password``.
 
-Simmilarly there are few other users in the database their passwords are 
+The only problem faced was, there is a dely of 2 seconds.
+
+Simmilarly there are few other users in the database their passwords are
 
 * admin:password
 * 1337:charley
