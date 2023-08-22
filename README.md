@@ -10,6 +10,21 @@ We do not take responsibility for the way in which any one uses this application
 
 Also, we wont be responsible for how a person use the resources from this repository. It will be the responsibility of the person who uses the resouces from here.
 
+## Setup
+
+Download Ubuntu Server from Ubuntu.com
+
+And install it on a virtual machine.
+
+run the following commands
+
+```bash
+sudo apt install git
+git clone https://github.com/AadithyanRaju/DVWA-Solutions.git
+bash ./DVWA-Solutions/setup.sh
+```
+
+
 ## Solution
 
 ### BruteForce
